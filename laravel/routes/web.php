@@ -28,5 +28,18 @@ Route::get('/passengertable', function () {
     return view('admin.passengertable');
 });
 
+Route::get('/stafftable', function () {
+    return view('admin.stafftable');
+});
+Route::get('/editaboutus', function () {
+    return view('admin.editaboutus');
+});
+Route::get('/editdriver', function () {
+    return view('admin.editdriver');
+});
+Route::get('/editpassenger', function () {
+    return view('admin.editpassenger');
+});
+
 
 ?>
