@@ -42,4 +42,15 @@ Route::get('/editpassenger', function () {
 });
 
 
+Route::get('/editstaff', function () {
+    return view('admin.editstaff');
+});
+Route::get('/edithistory', function () {
+    return view('admin.edithistory');
+});
+Route::get('/eHome', function () {
+    return view('admin.eHome');
+});
+
+
 ?>
