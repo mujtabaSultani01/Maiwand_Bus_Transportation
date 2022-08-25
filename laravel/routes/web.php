@@ -51,6 +51,12 @@ Route::get('/edithistory', function () {
 Route::get('/eHome', function () {
     return view('admin.eHome');
 });
+Route::get('/galleryedit', function () {
+    return view('admin.galleryedit');
+});
+Route::get('/editannouncement', function () {
+    return view('admin.editannouncement');
+});
 
 
 ?>
