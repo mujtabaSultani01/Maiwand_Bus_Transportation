@@ -59,4 +59,14 @@ Route::get('/editannouncement', function () {
 });
 
 
+Route::get('/editphoneemail', function () {
+    return view('admin.editphoneemail');
+});
+
+
+Route::get('/login', function () {
+    return view('admin.login');
+});
+
+
 ?>
